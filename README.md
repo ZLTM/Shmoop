@@ -1,5 +1,5 @@
 # Shmoop
-> Videogame made for the 2016 Bolivian GGJ
+> 
 
 [![Type](https://img.shields.io/badge/Type-Videogame-945C1D.svg)](https://github.com/ZLTM/Taki)
 [![Genre](https://img.shields.io/badge/Genre-Sensation-DDA76A.svg)](https://packagist.org/packages/phpunit/phpunit)
@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202--0-343E7D.svg)](https://packagist.org/packages/phpunit/phpunit)
 
 
-Game made following the theme "Ritual", it showcases the Bolivian culture old rituals by putting the player in the shoes of a yatiri (kind of like a shaman) accomplishing this using the movement tracking of [MYO](https://www.myo.com/).
+Game made ....).
 
 ## Important
 **README To be edited**
