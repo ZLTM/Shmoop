@@ -16,6 +16,13 @@ public class ShipMovement : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-        transform.position += (new Vector3(Input.GetAxis("Horizontal"), invert *Input.GetAxis("Vertical"), 0))*MovementSpeed*Time.deltaTime;
+        float Horizontal = Input.GetAxis("Horizontal");
+        float Vertical = Input.GetAxis("Vertical");
+        Vector3 direction = new Vector3(Horizontal, invert * Vertical, 0);
+        Vector3 FinalDirection = new Vector3(Horizontal, invert * Vertical, 1.0f);
+
+        transform.position += direction*MovementSpeed*Time.deltaTime;
+
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(FinalDirection),Mathf.Deg2Rad*50.0f);
 	}
 }
