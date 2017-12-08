@@ -7,6 +7,7 @@ public class ShipMovement : MonoBehaviour
 
     public float MovementSpeed = 1.0f;
     public int invert = -1; //1 for standar -1 for invert
+    public float Aim = 200.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +24,6 @@ public class ShipMovement : MonoBehaviour
 
         transform.position += direction*MovementSpeed*Time.deltaTime;
 
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(FinalDirection),Mathf.Deg2Rad*50.0f);
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(FinalDirection),Mathf.Deg2Rad*Aim);
 	}
 }
