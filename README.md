@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202--0-343E7D.svg)](https://packagist.org/packages/phpunit/phpunit)
 
 
-Game made ....).
+Game made ........).
 
 ## Important
 **README To be edited**
