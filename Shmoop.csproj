@@ -81,10 +81,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\Bank.cs" />
+    <Compile Include="Assets\Script\DestroyUnvisible.cs" />
     <Compile Include="Assets\Script\MoveForward.cs" />
+    <Compile Include="Assets\Script\RandomSpawner.cs" />
     <Compile Include="Assets\Script\ShipMovement.cs" />
     <Compile Include="Assets\Script\ShootForward.cs" />
-    <Compile Include="Assets\Script\WallSpawner.cs" />
     <Compile Include="Assets\Script\WorldTexture.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
