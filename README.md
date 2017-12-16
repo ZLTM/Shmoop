@@ -3,34 +3,28 @@
 
 [![Type](https://img.shields.io/badge/Type-Videogame-945C1D.svg)](https://github.com/ZLTM/Taki)
 [![Genre](https://img.shields.io/badge/Genre-Sensation-DDA76A.svg)](https://packagist.org/packages/phpunit/phpunit)
-[![State](https://img.shields.io/badge/State-Beta-2C834F.svg)](https://packagist.org/packages/phpunit/phpunit)
+[![State](https://img.shields.io/badge/State-In%20Development-2C834F.svg)](https://packagist.org/packages/phpunit/phpunit)
 [![License](https://img.shields.io/badge/License-Apache%202--0-343E7D.svg)](https://packagist.org/packages/phpunit/phpunit)
 
 
-Game made ........).
+Game inspired by StarFox.
 
-## Important
-**README To be edited**
-
-![]()
+![](Star.PNG)
 
 ## Participation
 
-:
+Personal project in wich I participated as:
 
-* Game Designer: 
-* Programer: 
+* Game Designer.
+* Programer.
 
 ## Installation
 
-Windows:
-
-
-
+Clone or download the project, you can play it using the unity editor or compiling it first.
 
 ## Gameplay
 
-
+**IN DEVELOPMENT** shoot with mouse 1, move with wasd, rotate with Q and E,  do a barrell roll!..... by pressing Q 2 times.
 
 ## Contact
 
