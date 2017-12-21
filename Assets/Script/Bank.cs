@@ -50,7 +50,7 @@ public class Bank : MonoBehaviour
     {
         InBarrell = true;
         float t = 0.0f;
-        Vector3 InitialRoation = transform.rotation.eulerAngles;
+        Vector3 InitialRoation = transform.localRotation.eulerAngles;
         Vector3 GoalRotation = InitialRoation;
         GoalRotation.z += 180.0f;
         Vector3 CurrentRotation = InitialRoation;
@@ -63,14 +63,14 @@ public class Bank : MonoBehaviour
             yield return null;
         }
         t = 0;
-        InitialRoation = transform.rotation.eulerAngles;
+        InitialRoation = transform.localRotation.eulerAngles;
         GoalRotation = InitialRoation;
         GoalRotation.z += 180.0f;
 
         while (t < BarrellDuration/2.0f)
         {
             CurrentRotation.z = Mathf.Lerp(InitialRoation.z, GoalRotation.z, t / (BarrellDuration / 2.0f));
-            transform.rotation = Quaternion.Euler(CurrentRotation);
+            transform.localRotation = Quaternion.Euler(CurrentRotation);
             t += Time.deltaTime;
             yield return null;
         }
