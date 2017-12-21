@@ -24,7 +24,7 @@ Clone or download the project, you can play it using the unity editor or compili
 
 ## Gameplay
 
-**IN DEVELOPMENT** shoot with mouse 1, move with wasd, rotate with Q and E,  do a barrell roll!..... by pressing Q 2 times.
+**IN DEVELOPMENT** shoot with mouse 1, move with wasd, rotate with Q and E,  do a barrel roll!..... by pressing Q 2 times.
 
 ## Contact
 
