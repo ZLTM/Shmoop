@@ -26,7 +26,7 @@ public class Bank : MonoBehaviour
             //applying the changes in the transform
             transform.rotation = NewQuaternion;
             //if button is not pressed
-            if (BankAxis < 0)
+            if (BankAxis == 0)
             {
                 BankButtonDown = false;
             }

@@ -84,7 +84,9 @@
     <Compile Include="Assets\Script\Bank.cs" />
     <Compile Include="Assets\Script\DestroyUnvisible.cs" />
     <Compile Include="Assets\Script\MoveForward.cs" />
+    <Compile Include="Assets\Script\NewScoreManager.cs" />
     <Compile Include="Assets\Script\RandomSpawner.cs" />
+    <Compile Include="Assets\Script\ScoreManager.cs" />
     <Compile Include="Assets\Script\ShipMovement.cs" />
     <Compile Include="Assets\Script\ShootForward.cs" />
     <Compile Include="Assets\Script\WorldTexture.cs" />
