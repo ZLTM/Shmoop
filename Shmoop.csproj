@@ -81,7 +81,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\AddScoreTrigger.cs" />
     <Compile Include="Assets\Script\Bank.cs" />
+    <Compile Include="Assets\Script\CameraFollow.cs" />
     <Compile Include="Assets\Script\DestroyUnvisible.cs" />
     <Compile Include="Assets\Script\MoveForward.cs" />
     <Compile Include="Assets\Script\NewScoreManager.cs" />
